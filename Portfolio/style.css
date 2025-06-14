@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #f4f4f4;
+	color: #333;
+}
+
+.container {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+}
+
+/* Navigation Bar */
+nav ul {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin: 0 15px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: underline;
+}
+
+/* Sections Starts */
+.section {
+	padding: 40px 0;
+	border-bottom: 10px solid #ccc;
+}
+
+.section h2 {
+	text-align: center;
+	margin-bottom: 20px;
+
+}
+/* About Section */
+.about-image img {
+	width: 100%;
+	border-radius: 12px;
+}
+
+.section.about li {
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+/* Footer */
+footer {
+	background-color: #222;
+	color: #aaa;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 1em;
+}
